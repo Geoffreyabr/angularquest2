@@ -1,0 +1,12 @@
+.firstdiv, .seconddiv{
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainpage{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

@@ -1,0 +1,11 @@
+img{
+  width: 400px;
+  height: 400px;
+}
+.main{
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  justify-content: space-around;
+}

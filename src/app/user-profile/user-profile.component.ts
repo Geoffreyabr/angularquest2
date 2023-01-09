@@ -19,4 +19,6 @@ export class UserProfileComponent {
     this.user.age =''  
   }
 
+  
+
 }

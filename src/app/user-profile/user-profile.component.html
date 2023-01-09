@@ -4,9 +4,9 @@
 
 <input type="text" [(ngModel)] ='user.quote'>
 
-{{user.quote}}
-{{user.age}}
-{{user.name}} {{user.firstName}}
+<p>{{user.quote}}</p>
+
+<p>{{user.firstName}} {{user.name}} , {{user.age}}</p>
 
 <button (click)="hideAge()"> display Age </button>
 

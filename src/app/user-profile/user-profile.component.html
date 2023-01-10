@@ -6,7 +6,8 @@
 
 <p>{{user.quote}}</p>
 
-<p>{{user.firstName}} {{user.name}} , {{user.age}}</p>
+<p>{{user.firstName}} {{user.name}}</p> 
+<p *ngIf = 'isHide'> {{user.age}}</p>
 
 <button (click)="hideAge()"> display Age </button>
 

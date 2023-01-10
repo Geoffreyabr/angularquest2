@@ -15,10 +15,11 @@ export class UserProfileComponent {
     photo : 'https://randomuser.me/api/portraits/lego/2.jpg'
   };
 
-  hideAge(){
-    this.user.age =''  
-  }
+  isHide: boolean = true;
 
+  hideAge(){
+   this.isHide = false
+  }
   
 
 }
